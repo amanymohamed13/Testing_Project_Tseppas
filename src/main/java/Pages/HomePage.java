@@ -10,6 +10,13 @@ public class HomePage extends PageBase{
     {
         super(driver);
     }
+
+    @FindBy(xpath = "//*[@id=\"root\"]/div[2]/nav/div[1]/div/div/div")
+    WebElement profileMenue;
+
+    @FindBy(className = "DropdownList_dropdown_menu_link__p5Pd2")
+    WebElement myProfile;
+
     //Torta in second Section to make test like
     @FindBy(className ="OverlayImg_figure_caption__Tc3-J")
     WebElement Tortas;
@@ -17,6 +24,12 @@ public class HomePage extends PageBase{
    //Login Section
     @FindBy(className = "UserSettingsBar_login__4Nnvt")
     WebElement accountLogin;
+
+    public void Open_Profile_page()
+    {
+        act.contextClick(profileMenue).moveToElement(myProfile).click().perform();
+
+    }
 
     public void Open_tortasPage()
     {
@@ -27,4 +40,6 @@ public class HomePage extends PageBase{
         accountLogin.click();
 
     }
+
+
 }

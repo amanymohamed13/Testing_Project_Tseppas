@@ -6,6 +6,7 @@
             <class name="Tests.CreateAccountTest"/>
             <class name="Tests.LoginTest"/>
             <class name="Tests.TortaTest"/>
+            <class name="Tests.EditProfileTest"/>
         </classes>
     </test>
 </suite>

@@ -10,6 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class PageBase {
         public WebDriver driver;
         public Select select;
+
         public Actions act;
         WebDriverWait wait;
         public PageBase(WebDriver driver)

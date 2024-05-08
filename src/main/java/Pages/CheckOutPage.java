@@ -10,6 +10,7 @@ public class CheckOutPage extends PageBase {
     @FindBy(name = "checkout")
     WebElement checkoutBtn;
 
+
    @FindBy(name = "country")
    WebElement country;
 

@@ -8,6 +8,7 @@ public class BreakfastTest extends TestBase{
     LoginPage loginPage;
     BreakfastPage breakfast;
 
+
     @Test
     public void breakfastInfo()
     {

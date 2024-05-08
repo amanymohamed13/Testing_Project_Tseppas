@@ -11,6 +11,7 @@ public class CheckOutTest extends TestBase{
     HomePage homePage;
     LoginPage loginPage;
     CheckOutPage checkout;
+
     BreakfastPage breakfast;
     @Test
     public void breakfastInfo()

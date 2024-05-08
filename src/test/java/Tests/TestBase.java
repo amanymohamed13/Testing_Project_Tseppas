@@ -13,6 +13,7 @@ import java.util.concurrent.TimeUnit;
 public class TestBase {
     public static WebDriver driver;
     public WebDriverWait wait;
+
     JavascriptExecutor executor;
     @BeforeClass
     public void openUrl()

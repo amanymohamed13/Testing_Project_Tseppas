@@ -12,6 +12,7 @@ public class EditProfile extends PageBase {
     @FindBy(id = "email")
     WebElement email;
 
+
     @FindBy(id = "phone_number")
     WebElement number;
 

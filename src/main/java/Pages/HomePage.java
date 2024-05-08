@@ -17,6 +17,8 @@ public class HomePage extends PageBase{
     WebElement myProfile;*/
 
 
+
+
     //add to favoriate
     @FindBy (xpath = "//*[@id=\"mainLayout\"]/main/section[3]/div/div/div/div/div[1]/div/div/div/figure[2]/div/a")
     WebElement breakFast;

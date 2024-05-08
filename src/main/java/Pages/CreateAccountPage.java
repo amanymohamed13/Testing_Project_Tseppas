@@ -15,6 +15,7 @@ public class CreateAccountPage extends PageBase{
     WebElement email;
     @FindBy(id="password")
     WebElement pass;
+
     @FindBy(id="confirmPassword")
     WebElement coPass;
     @FindBy(className = "PrimaryButton_primary_button__5cdyV")

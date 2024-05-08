@@ -13,6 +13,7 @@ public class TortaTest extends TestBase {
 
     @Test
     public void VerifyTagsValue() {
+
         this.homePage = new HomePage(driver);
         this.homePage.Open_tortasPage();
         this.tortaPage = new TortaPage(driver);

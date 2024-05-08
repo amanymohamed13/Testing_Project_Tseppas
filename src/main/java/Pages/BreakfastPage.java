@@ -9,6 +9,7 @@ public class BreakfastPage extends PageBase{
     @FindBy (xpath = "//*[@id=\"mainLayout\"]/div/div[3]/div/div[2]/div[1]/span/picture/img")
     WebElement card;
 
+
     @FindBy(name = "Increment")
     WebElement increment;
     @FindBy(name = "Like")

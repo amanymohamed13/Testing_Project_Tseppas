@@ -10,6 +10,7 @@ public class EditProfileTest extends TestBase {
     LoginPage loginPage;
     EditProfile editProfile;
 
+
     @Test
     public void EditProfileInfo()
     {

@@ -11,6 +11,7 @@ public class LoginPage extends PageBase{
     }
     @FindBy(id="email")
     WebElement mail;
+
     @FindBy(id="password")
     WebElement pass;
     @FindBy(className="PrimaryButton_primary_button__5cdyV")

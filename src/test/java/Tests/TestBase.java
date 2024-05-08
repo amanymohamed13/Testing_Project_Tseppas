@@ -4,6 +4,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.*;
 import java.util.concurrent.TimeUnit;
@@ -18,7 +19,7 @@ public class TestBase {
     {
 
 
-        driver = new ChromeDriver();
+        driver = new FirefoxDriver();
         driver.manage().window().maximize();
         driver.get("https://tseppas.com/");
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);

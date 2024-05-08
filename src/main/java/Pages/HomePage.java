@@ -11,11 +11,15 @@ public class HomePage extends PageBase{
         super(driver);
     }
 
-    @FindBy(xpath = "//*[@id=\"root\"]/div[2]/nav/div[1]/div/div/div")
+    /*@FindBy(xpath = "//*[@id=\"root\"]/div[2]/nav/div[1]/div/div/div")
     WebElement profileMenue;
-
     @FindBy(className = "DropdownList_dropdown_menu_link__p5Pd2")
-    WebElement myProfile;
+    WebElement myProfile;*/
+
+
+    //add to favoriate
+    @FindBy (xpath = "//*[@id=\"mainLayout\"]/main/section[3]/div/div/div/div/div[1]/div/div/div/figure[2]/div/a")
+    WebElement breakFast;
 
     //Torta in second Section to make test like
     @FindBy(className ="OverlayImg_figure_caption__Tc3-J")
@@ -25,11 +29,25 @@ public class HomePage extends PageBase{
     @FindBy(className = "UserSettingsBar_login__4Nnvt")
     WebElement accountLogin;
 
-    public void Open_Profile_page()
+
+    //open breakfast
+    public void Open_breakfast()
     {
-        act.contextClick(profileMenue).moveToElement(myProfile).click().perform();
+        breakFast.click();
 
     }
+
+    /*
+    public void Open_Profile_page()
+    {
+        profileMenue.click();
+
+    }
+    public void Open_myProfile()
+    {
+       myProfile.click();
+
+    }*/
 
     public void Open_tortasPage()
     {

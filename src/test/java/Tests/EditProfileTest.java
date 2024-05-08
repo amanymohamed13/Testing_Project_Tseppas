@@ -18,7 +18,8 @@ public class EditProfileTest extends TestBase {
         loginPage=new LoginPage(driver);
         loginPage.LogIn("ama372002@gmail.com","amany123");
         System.out.println("Logged In Successfully" );
-        homePage.Open_Profile_page();
+        //homePage.Open_Profile_page();
+       // homePage.Open_myProfile();
         editProfile=new EditProfile(driver);
         editProfile.changeInfo("Alaa","alaa.alshemi.aam@gmail.com","01024127915");
 

@@ -40,6 +40,11 @@ public class HomePage extends PageBase{
     @FindBy(className = "UserSettingsBar_login__4Nnvt")
     WebElement accountLogin;
 
+    // Contact us
+    @FindBy (xpath = "//*[@id=\"root\"]/div[2]/nav/div[1]/ul/li[4]/a")
+    WebElement contactUs;
+
+
 
     //open breakfast
     public void Open_breakfast()
@@ -86,9 +91,14 @@ public class HomePage extends PageBase{
             close.click();
     }
 
-    public void Open_login_CreateAccPage()
+    public void Open_login_page()
     {
         accountLogin.click();
 
+    }
+
+
+    public void  Open_contact_US_Page(){
+    contactUs.click();
     }
 }

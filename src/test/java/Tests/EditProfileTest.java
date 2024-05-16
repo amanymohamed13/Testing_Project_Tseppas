@@ -18,7 +18,7 @@ public class EditProfileTest extends TestBase {
     public void EditProfileInfo()
     {
         homePage=new HomePage(driver);
-        homePage.Open_login_CreateAccPage();
+        homePage.Open_login_page();
 
         loginPage=new LoginPage(driver);
         loginPage.LogIn("alaayousef777.lolo@gmail.com","baba123");

@@ -4,21 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8ac5358-725c-4730-81ac-6f6ecc935b39" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e8ac5358-725c-4730-81ac-6f6ecc935b39" name="Changes" comment=".">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/ContactUsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/ContacUsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/BreakfastPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/BreakfastPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/PageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/PageBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/TortaPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/AboutUsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/AboutUsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/AboutUsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tests/BreakfastTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/BreakfastTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tests/CheckOutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/CheckOutTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tests/CreateAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/CreateAccountTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tests/EditProfileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/EditProfileTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/ShoppingCartPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/ShoppingCartPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TortaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/AboutUsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testing.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/AboutUsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/AboutUsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/BreakfastTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/BreakfastTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/CheckOutTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/CheckOutTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/CreateAccountTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/CreateAccountTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/EditProfileTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/EditProfileTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/LoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/ShoppingCartPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/ShoppingCartPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testing.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +66,7 @@
   }
 }</component>
   <component name="RunManager" selected="TestNG.C:/Users/AmanyMohamedSayedRam/Downloads/Testing_Project_Tseppas-main/Testing_Project_Tseppas/Testing_Project_Tseppas/testing.xml">
-    <configuration name="AboutUsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BreakfastTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Testing_Project" />
       <extension name="coverage">
         <pattern>
@@ -67,7 +75,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.AboutUsTest" />
+      <option name="MAIN_CLASS_NAME" value="Tests.BreakfastTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -85,7 +93,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckOutTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ContacUsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Testing_Project" />
       <extension name="coverage">
         <pattern>
@@ -94,7 +102,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.CheckOutTest" />
+      <option name="MAIN_CLASS_NAME" value="Tests.ContacUsTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -139,10 +147,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/AmanyMohamedSayedRam/Downloads/Testing_Project_Tseppas-main/Testing_Project_Tseppas/Testing_Project_Tseppas/testing.xml" />
-        <item itemvalue="TestNG.EditProfileTest" />
-        <item itemvalue="TestNG.CheckOutTest" />
-        <item itemvalue="TestNG.AboutUsTest" />
+        <item itemvalue="TestNG.ContacUsTest" />
+        <item itemvalue="TestNG.BreakfastTest" />
         <item itemvalue="TestNG.ShoppingCartPageTest" />
+        <item itemvalue="TestNG.EditProfileTest" />
       </list>
     </recent_temporary>
   </component>
@@ -156,9 +164,22 @@
       <updated>1715174361712</updated>
       <workItem from="1715177605030" duration="16003000" />
     </task>
+    <task id="LOCAL-00001" summary=".">
+      <option name="closed" value="true" />
+      <created>1715872473053</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715872473053</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>

@@ -6,6 +6,7 @@
             <class name="Tests.CreateAccountTest"/>
             <class name="Tests.LoginTest"/>
             <class name="Tests.AboutUsTest"/>
+            <class name="Tests.ContacUsTest"/>
             <class name="Tests.BreakfastTest"/>
             <class name="Tests.CheckOutTest"/>
             <class name="Tests.ShoppingCartPageTest"/>

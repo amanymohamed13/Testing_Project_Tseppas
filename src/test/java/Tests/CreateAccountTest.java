@@ -13,11 +13,14 @@ public class CreateAccountTest extends TestBase{
     public void TestCreateAccount()
     {
         homePage=new HomePage(driver);
-        homePage.Open_login_CreateAccPage();
+        homePage.Open_login_page();
+
         loginPage=new LoginPage(driver);
         loginPage.Open_CreateAccPage();
+
         createAccountPage=new CreateAccountPage(driver);
-        createAccountPage.CreateAccount("Amany mohamed","am820@mail.com","amany123","amany123");
+        createAccountPage.CreateAccount("Amany mohamed","amanMohamed123@mail.com","amany123","amany123");
+        System.out.println("Account Created Successfully");
 
     }
 

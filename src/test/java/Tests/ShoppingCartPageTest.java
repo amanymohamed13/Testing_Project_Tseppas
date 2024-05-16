@@ -3,6 +3,8 @@ package Tests;
 import Pages.*;
 import org.testng.annotations.Test;
 
+import java.util.concurrent.TimeUnit;
+
 public class ShoppingCartPageTest extends TestBase{
     HomePage homePage;
     LoginPage loginPage;
@@ -14,7 +16,7 @@ public class ShoppingCartPageTest extends TestBase{
     public void shpppindcartInfo()
     {
         homePage=new HomePage(driver);
-        homePage.Open_login_CreateAccPage();
+        homePage.Open_login_page();
         loginPage=new LoginPage(driver);
         loginPage.LogIn("alaayousef777.lolo@gmail.com","baba123");
         System.out.println("Logged In Successfully" );
@@ -40,8 +42,7 @@ public class ShoppingCartPageTest extends TestBase{
        shoppingcart.increment_item1_Btn();
         shoppingcart.increment_item2_Btn();
         shoppingcart.increment_item2_Btn();
-        shoppingcart.decrement_item1_Btn();
-        shoppingcart.decrement_item2_Btn();
+        shoppingcart.delete_item2_Btn();
         checkout=new CheckOutPage(driver);
 
 

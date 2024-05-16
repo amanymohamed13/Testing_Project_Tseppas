@@ -39,7 +39,7 @@ public class ShoppingCartPageTest extends TestBase{
         breakfast.open_CartIcon();
         shoppingcart=new ShoppingCartPage(driver);
         shoppingcart.increment_item1_Btn();
-       shoppingcart.increment_item1_Btn();
+        shoppingcart.increment_item3_Btn();
         shoppingcart.increment_item2_Btn();
         shoppingcart.increment_item2_Btn();
         shoppingcart.delete_item2_Btn();

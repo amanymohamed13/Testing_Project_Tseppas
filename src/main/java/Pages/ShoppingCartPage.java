@@ -49,40 +49,17 @@ public class ShoppingCartPage extends PageBase {
         increment_item2.click();
     }
     public void increment_item3_Btn()
+
     {
         increment_item3.click();
     }
 
 
-    public void decrement_item1_Btn()
-    {
-        decrement_item1.click();
 
-    }
-    public void decrement_item2_Btn()
-    {
-        decrement_item2.click();
-
-    }
-    public void decrement_item3_Btn()
-    {
-        decrement_item3.click();
-
-    }
-
-    public void delete_item1_Btn()
-    {
-        delete_item1.click();
-
-    }
     public void delete_item2_Btn()
     {
         delete_item2.click();
 
     }
-    public void delete_item3_Btn()
-    {
-        delete_item3.click();
 
-    }
 }

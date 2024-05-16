@@ -5,28 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8ac5358-725c-4730-81ac-6f6ecc935b39" name="Changes" comment=".">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/ContactUsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/ContacUsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/AboutUsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/AboutUsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/BreakfastTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/BreakfastTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/CheckOutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/CheckOutTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/CreateAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/CreateAccountTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/EditProfileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/EditProfileTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/ShoppingCartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/ShoppingCartPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tests/ShoppingCartPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/ShoppingCartPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pages/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/AboutUsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/AboutUsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/BreakfastTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/BreakfastTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/CheckOutTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/CheckOutTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/CreateAccountTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/CreateAccountTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/EditProfileTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/EditProfileTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/LoginTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/ShoppingCartPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/ShoppingCartPageTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testing.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +45,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.C:/Users/AmanyMohamedSayedRam/Downloads/Testing_Project_Tseppas-main/Testing_Project_Tseppas/Testing_Project_Tseppas/testing.xml">
+  <component name="RunManager" selected="TestNG.ShoppingCartPageTest">
     <configuration name="BreakfastTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Testing_Project" />
       <extension name="coverage">
@@ -146,10 +126,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ShoppingCartPageTest" />
         <item itemvalue="TestNG.C:/Users/AmanyMohamedSayedRam/Downloads/Testing_Project_Tseppas-main/Testing_Project_Tseppas/Testing_Project_Tseppas/testing.xml" />
         <item itemvalue="TestNG.ContacUsTest" />
         <item itemvalue="TestNG.BreakfastTest" />
-        <item itemvalue="TestNG.ShoppingCartPageTest" />
         <item itemvalue="TestNG.EditProfileTest" />
       </list>
     </recent_temporary>
@@ -172,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715872473053</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary=".">
+      <option name="closed" value="true" />
+      <created>1715876691850</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715876691850</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

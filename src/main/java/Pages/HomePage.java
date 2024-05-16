@@ -3,29 +3,38 @@ package Pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
 
 
 public class HomePage extends PageBase{
-    public HomePage(WebDriver driver)
-    {
+    WebDriver driver;
+    WebDriverWait wait;
+
+    public HomePage(WebDriver driver) {
         super(driver);
+        this.driver = driver;
+        this.wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+        PageFactory.initElements(driver, this);
     }
 
-    /*@FindBy(xpath = "//*[@id=\"root\"]/div[2]/nav/div[1]/div/div/div")
-    WebElement profileMenue;
-    @FindBy(className = "DropdownList_dropdown_menu_link__p5Pd2")
-    WebElement myProfile;*/
 
+    @FindBy(xpath = "//*[@id=\"root\"]/div[2]/nav/div[1]/div/div/div")
+    WebElement profileMenu;
 
+    @FindBy(xpath = "/html/body/div[1]/div[2]/nav/div[1]/div/div/ul/li[1]/a")
+    WebElement myProfile;
 
+    // about us element
+    @FindBy(xpath = "//*[@id=\"root\"]/div[2]/nav/div[1]/ul/li[3]/a")
+    WebElement aboutUs;
 
-    //add to favoriate
+    //add to favorite
     @FindBy (xpath = "//*[@id=\"mainLayout\"]/main/section[3]/div/div/div/div/div[1]/div/div/div/figure[2]/div/a")
     WebElement breakFast;
-
-    //Torta in second Section to make test like
-    @FindBy(className ="OverlayImg_figure_caption__Tc3-J")
-    WebElement Tortas;
 
    //Login Section
     @FindBy(className = "UserSettingsBar_login__4Nnvt")
@@ -39,27 +48,47 @@ public class HomePage extends PageBase{
 
     }
 
-    /*
-    public void Open_Profile_page()
-    {
-        profileMenue.click();
 
-    }
+    public void Open_Profile_page()
+     {       try
+         {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+        WebElement closeBtn = wait.until(ExpectedConditions.elementToBeClickable(profileMenu));
+        closeBtn.click();
+        System.out.println("profile Menu opened ");
+         }
+
+        catch (Exception e)
+        {
+             System.out.println("profile Menu not clickable ");
+           }
+
+     }
     public void Open_myProfile()
     {
-       myProfile.click();
+        try
+        {
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(40));
+            WebElement closeBtn = wait.until(ExpectedConditions.elementToBeClickable(myProfile));
+            closeBtn.click();
+            System.out.println("My profile opened ");
+        }
+        catch (Exception e)
+        {
+            System.out.println("profile not clickable ");
+        }
 
-    }*/
-
-    public void Open_tortasPage()
-    {
-        Tortas.click();
     }
+
+    public void OpenAboutUs(){
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+            WebElement close = wait.until(ExpectedConditions.elementToBeClickable(aboutUs));
+            close.click();
+    }
+
     public void Open_login_CreateAccPage()
     {
         accountLogin.click();
 
     }
-
-
 }

@@ -5,14 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8ac5358-725c-4730-81ac-6f6ecc935b39" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/BreakfastPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/BreakfastPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/PageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/PageBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/TortaPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/AboutUsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/BreakfastTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/BreakfastTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/CheckOutTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/CheckOutTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/CreateAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/CreateAccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/EditProfileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/EditProfileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TortaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/AboutUsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testing.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,15 +47,89 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/AmanyMohamedSayedRam/Desktop/Testing_Project&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/AmanyMohamedSayedRam/Downloads/Testing_Project_Tseppas-main/Testing_Project_Tseppas/Testing_Project_Tseppas&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration name="C:/Users/AmanyMohamedSayedRam/Desktop/Testing_Project/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/Users/AmanyMohamedSayedRam/Downloads/Testing_Project_Tseppas-main/Testing_Project_Tseppas/Testing_Project_Tseppas/testing.xml">
+    <configuration name="AboutUsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Testing_Project" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.AboutUsTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/AmanyMohamedSayedRam/Downloads/Testing_Project_Tseppas-main/Testing_Project_Tseppas/Testing_Project_Tseppas/testing.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Testing_Project" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testing.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckOutTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Testing_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.CheckOutTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EditProfileTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Testing_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.EditProfileTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingCartPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Testing_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.ShoppingCartPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -46,7 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/AmanyMohamedSayedRam/Desktop/Testing_Project/testng.xml" />
+        <item itemvalue="TestNG.C:/Users/AmanyMohamedSayedRam/Downloads/Testing_Project_Tseppas-main/Testing_Project_Tseppas/Testing_Project_Tseppas/testing.xml" />
+        <item itemvalue="TestNG.EditProfileTest" />
+        <item itemvalue="TestNG.CheckOutTest" />
+        <item itemvalue="TestNG.AboutUsTest" />
+        <item itemvalue="TestNG.ShoppingCartPageTest" />
       </list>
     </recent_temporary>
   </component>
@@ -58,7 +154,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715174361712</updated>
+      <workItem from="1715177605030" duration="16003000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>

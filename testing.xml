@@ -5,9 +5,12 @@
         <classes>
             <class name="Tests.CreateAccountTest"/>
             <class name="Tests.LoginTest"/>
-            <class name="Tests.TortaTest"/>
+            <class name="Tests.AboutUsTest"/>
             <class name="Tests.BreakfastTest"/>
             <class name="Tests.CheckOutTest"/>
+            <class name="Tests.ShoppingCartPageTest"/>
+            <class name="Tests.EditProfileTest"/>
         </classes>
     </test>
+
 </suite>

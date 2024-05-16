@@ -9,6 +9,11 @@ public class BreakfastPage extends PageBase{
     @FindBy (xpath = "//*[@id=\"mainLayout\"]/div/div[3]/div/div[2]/div[1]/span/picture/img")
     WebElement card;
 
+    @FindBy (xpath = "//*[@id=\"mainLayout\"]/div/div[3]/div/div[1]/div[1]/span/picture/img")
+    WebElement card1;
+
+    @FindBy (xpath = "//*[@id=\"mainLayout\"]/div/div[3]/div/div[4]/div[1]/span/picture/img")
+    WebElement card2;
 
     @FindBy(name = "Increment")
     WebElement increment;
@@ -26,9 +31,21 @@ public class BreakfastPage extends PageBase{
         card.click();
     }
 
+    public void Open_Petit_page()
+    {
+        card1.click();
+    }
+
+    public void Open_Pate_page()
+    {
+        card2.click();
+    }
+
     public void open_CartIcon() {
         cartIcon.click();
     }
+
+
 
     public void buyNowClick()
     {
@@ -38,16 +55,11 @@ public class BreakfastPage extends PageBase{
     public void increment_Btn()
     {
         increment.click();
-        increment.click();
-        increment.click();
-        increment.click();
-        increment.click();
-        increment.click();
+
 
     }
     public void Like_Btn()
     {
-        like.click();
         like.click();
         like.click();
     }

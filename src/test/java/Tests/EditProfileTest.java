@@ -4,6 +4,8 @@ import Pages.EditProfile;
 import Pages.HomePage;
 import Pages.LoginPage;
 import org.testng.annotations.Test;
+import java.util.concurrent.TimeUnit;
+
 
 public class EditProfileTest extends TestBase {
     HomePage homePage;
@@ -11,20 +13,29 @@ public class EditProfileTest extends TestBase {
     EditProfile editProfile;
 
 
+
     @Test
     public void EditProfileInfo()
     {
         homePage=new HomePage(driver);
         homePage.Open_login_CreateAccPage();
+
         loginPage=new LoginPage(driver);
-        loginPage.LogIn("ama372002@gmail.com","amany123");
+        loginPage.LogIn("alaayousef777.lolo@gmail.com","baba123");
         System.out.println("Logged In Successfully" );
-        //homePage.Open_Profile_page();
-       // homePage.Open_myProfile();
+
+        driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
+
+        homePage=new HomePage(driver);
+        //click on username to open dropdown menu
+        homePage.Open_Profile_page();
+
+        // click on my profile item to open edit screen
+        homePage.Open_myProfile();
+
         editProfile=new EditProfile(driver);
-        editProfile.changeInfo("Alaa","alaa.alshemi.aam@gmail.com","01024127915");
-
-
+        // add new data
+        editProfile.changeInfo("Alaa","alaayousef777.lolo@gmail.com","01024127915");
     }
 
 }

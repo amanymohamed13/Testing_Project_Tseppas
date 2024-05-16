@@ -7,12 +7,13 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class PageBase {
-        public WebDriver driver;
-        public Select select;
+import java.util.logging.Logger;
 
-        public Actions act;
-        WebDriverWait wait;
+public class PageBase {
+
+        public WebDriver driver;
+        private static final Logger LOGGER = Logger.getLogger(PageBase.class.getName());
+
         public PageBase(WebDriver driver)
         {
                 PageFactory.initElements(driver,this);

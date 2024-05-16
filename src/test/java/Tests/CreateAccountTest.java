@@ -17,7 +17,7 @@ public class CreateAccountTest extends TestBase{
         loginPage=new LoginPage(driver);
         loginPage.Open_CreateAccPage();
         createAccountPage=new CreateAccountPage(driver);
-        createAccountPage.CreateAccount("Amany mohamed","ama3720@mail.com","amany123","amany123");
+        createAccountPage.CreateAccount("Amany mohamed","am820@mail.com","amany123","amany123");
 
     }
 

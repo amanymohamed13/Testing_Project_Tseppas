@@ -1,19 +1,17 @@
 package Tests;
 
-import Pages.BreakfastPage;
-import Pages.CheckOutPage;
-import Pages.HomePage;
-import Pages.LoginPage;
-import org.testng.Assert;
+import Pages.*;
 import org.testng.annotations.Test;
 
-public class CheckOutTest extends TestBase{
+public class ShoppingCartPageTest extends TestBase{
     HomePage homePage;
     LoginPage loginPage;
     CheckOutPage checkout;
     BreakfastPage breakfast;
+    ShoppingCartPage shoppingcart;
+
     @Test
-    public void breakfastInfo()
+    public void shpppindcartInfo()
     {
         homePage=new HomePage(driver);
         homePage.Open_login_CreateAccPage();
@@ -24,10 +22,29 @@ public class CheckOutTest extends TestBase{
         breakfast=new BreakfastPage(driver);
         breakfast.Open_cinnamon_page();
         System.out.println("Add to Fav Successfully" );
+
         breakfast.buyNowClick();
         System.out.println("Add to Cart" );
+        driver.navigate().back();
+        System.out.println("Bake to Home" );
+
+        breakfast.Open_Petit_page();
+        System.out.println("Add to Fav Successfully" );
+        driver.navigate().back();
+        System.out.println("Bake to Home" );
+
+
         breakfast.open_CartIcon();
+        shoppingcart=new ShoppingCartPage(driver);
+        shoppingcart.increment_item1_Btn();
+       shoppingcart.increment_item1_Btn();
+        shoppingcart.increment_item2_Btn();
+        shoppingcart.increment_item2_Btn();
+        shoppingcart.decrement_item1_Btn();
+        shoppingcart.decrement_item2_Btn();
         checkout=new CheckOutPage(driver);
+
+
         checkout.clickCheckoutBtn();
         checkout.setCountry();
         checkout.setCity();
@@ -40,6 +57,4 @@ public class CheckOutTest extends TestBase{
 
 
     }
-
-
 }

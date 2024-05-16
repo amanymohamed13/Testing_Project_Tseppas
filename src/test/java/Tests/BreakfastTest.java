@@ -8,19 +8,25 @@ public class BreakfastTest extends TestBase{
     LoginPage loginPage;
     BreakfastPage breakfast;
 
-
+     ShoppingCartPage shoppingCartPage;
     @Test
     public void breakfastInfo()
     {
         homePage=new HomePage(driver);
         homePage.Open_login_CreateAccPage();
         loginPage=new LoginPage(driver);
-        loginPage.LogIn("ama372002@gmail.com","amany123");
+        loginPage.LogIn("alaayousef777.lolo@gmail.com","baba123");
         System.out.println("Logged In Successfully" );
         homePage.Open_breakfast();
         breakfast=new BreakfastPage(driver);
         breakfast.Open_cinnamon_page();
         breakfast.increment_Btn();
+//        driver.navigate().back();
+//        breakfast.Open_Pate_page();
+//        breakfast.buyNowClick();
+//        driver.navigate().back();
+//        breakfast.Open_Petit_page();
+//        breakfast.buyNowClick();
         breakfast.Like_Btn();
         System.out.println("Add to Fav Successfully" );
 
